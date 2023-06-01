@@ -253,3 +253,83 @@ ul {
     bottom: -20px;
     transform: translate(250%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-download-section {
+    justify-content: space-around;
+    border-radius: 3px;
+    box-shadow: 0 0 2px;
+    padding: 40px 0;
+    
+}
+.app-download-section .left-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.app-download-section .left-part input {
+    width: 350px;
+    padding: 7px;
+    font-size: 1rem;
+}
+.app-download-section .left-part button {
+    width: 150px;
+    padding: 7px;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: blueviolet;
+    background-color: rgba(238, 212, 212, 0.61);
+    border: transparent;
+    box-shadow: 0 0 2px;
+    margin-left: -3px;
+    outline: none;
+    cursor: pointer;
+}
+.mmt-app-img img {
+    width: 70px;
+}
+
+
+.app-stores {
+    gap: 20px;
+}
+.play-store img {
+    width: 180px;
+    cursor: pointer;
+}
+.scanner img {
+    width: 110px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
