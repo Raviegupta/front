@@ -1,0 +1,255 @@
+/* general css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.max-container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#bg-blue {
+    height: 550px;
+    background-image: linear-gradient(#061323, #133f72);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #061424;
+    height: 60px;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 10px;
+}
+.logo img {
+    width: 120px;
+}
+
+.other-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.other-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.flag-box {
+    /* border: 1px solid red; */
+    /* height: 30px; */
+    box-shadow: 0 0 3px;
+    padding: 1px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.flag-box img {
+    width: 25px;
+}
+
+.login-btn button{
+    background-color: rgb(162, 114, 206);
+    background-image: linear-gradient(to right, rgb(193, 198, 221) , rgb(141, 20, 223));
+    padding: 10px 30px 10px 7px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.flag img {
+    width: 18px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 0 3px;
+    background-color: white;
+}
+
+.left-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-pages ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.navigation-pages ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+    font-weight: 200;
+}
+
+.navigation-pages ul li img {
+    width: 25px; 
+}
+
+.right-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.login-signup {
+    gap: 10px;
+}
+
+.navigation-pages-positioned {
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+}
+.navigation-pages-positioned ul {
+    gap: 50px;
+}
+.navigation-pages-positioned ul li img {
+    width: 45px;
+}
+
+
+
+.main-trip-section {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+    padding: 10px;
+    padding-top: 70px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+
+.main-trip-section .trips {
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.main-trip-section .trips-form span {
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 218, 218);
+}
+.main-trip-section .trips-form span:hover {
+    background-color: rgb(158, 158, 216);
+    border-radius: 10px;
+    border: none;
+}
+
+.select-fares {
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.form-fares span {
+    padding: 7px 10px;
+    background-color: rgba(173, 216, 230, 0.301);
+    margin-right: 2px;
+    border-radius: 3px;
+}
+.form-fares span input {
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+.main-trip-section .travel-inputs {
+    border: 1px solid #e2dbdb;
+    border-radius: 5px;
+    height: 100px;
+    margin: 15px;
+    
+    display: grid;
+    grid-template-columns: 27.5% 27.5% 12.5% 12.5% 20%;
+}
+
+.main-trip-section .travel-inputs span {
+    border-right: 1px solid #e2dbdb;
+    padding: 10px 20px;
+}
+.main-trip-section .travel-inputs span:hover {
+    cursor: pointer;
+    background-color: rgb(248, 244, 244);
+    overflow: hidden;
+}
+
+.search-section {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 70px;
+}
+.navigation-pages-positioned {
+    position: absolute;
+    top: -40px;
+    left: 17%;
+    background-color: white;
+}
+
+
+
+.trending-search {
+    gap: 7px;
+}
+
+.trending-search-list {
+    background-color: rgba(173, 216, 230, 0.301);
+    height: 40px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius: 3px;
+}
+
+.search-button button {
+    font-size: 1.6rem;
+    padding: 5px 44px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(120, 189, 212),rgba(29, 77, 236, 0.877) );
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    bottom: -20px;
+    transform: translate(250%);
+}
